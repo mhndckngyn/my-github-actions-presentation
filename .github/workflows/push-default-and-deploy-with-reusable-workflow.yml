@@ -23,6 +23,7 @@ jobs:
         run: |
           echo "Hello from before composite action"
 
+      # Also using custom action here
       - name: Build and Publish .NET Core App
         uses: devopselvis/build-test-net-core-app-custom-action@main
         with:
